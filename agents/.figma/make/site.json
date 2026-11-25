@@ -1,0 +1,10 @@
+{
+  "description": "Create and customize a student portfolio with editable color palettes and four central sections to showcase project texts and images on desktop-sized pages.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

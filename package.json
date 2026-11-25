@@ -1,0 +1,10 @@
+{
+  "name": "agents",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix agents run dev",
+    "build": "npm --prefix agents run build",
+    "preview": "npm --prefix agents run preview",
+    "format": "npm --prefix agents run format"
+  }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+/* ─── Editable Color Palette ─────────────────────────────── */
+/* Change these values to retheme the entire portfolio        */
+:root {
+  --color-bg: #2A2F63;
+  --color-surface: #333872;
+  --color-card: #ffffff;
+  --color-border: rgba(255,255,255,0.12);
+
+  --color-primary: #75B520;     /* verde protagonista */
+  --color-secondary: #ffffff;
+  --color-accent: #75B520;
+
+  --color-text: #ffffff;
+  --color-text-muted: #9CA3AF;
+  --color-text-dim: #6b7280;
+
+  --font-display: 'Nunito', system-ui, sans-serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
+
+  --radius-card: 16px;
+  --radius-sm: 8px;
+
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-dim); }
