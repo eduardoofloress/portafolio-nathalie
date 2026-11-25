@@ -29,7 +29,13 @@ const PROJECTS = [
 
 export default function App() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
-  const [images, setImages] = useState<Record<number, string>>({});
+  const [images, setImages] = useState<Record<number, string>>({
+    0: "/images/nathalie-graduacion.jpeg",
+    1: "/images/expo-superate-poma.jpeg",
+    2: "/images/libro-contextos.jpeg",
+    3: "/images/potc-proyecto.jpeg",
+    4: "/images/certificacion-excel.jpeg",
+  });
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({});
 
   function handleImageChange(id: number, e: React.ChangeEvent<HTMLInputElement>) {
